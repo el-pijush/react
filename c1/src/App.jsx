@@ -58,9 +58,9 @@ function App() {
        if(score>100){
         return
       }
-          if(wicket>12){
-            return
-          }
+        if(wicket>=12){
+          return
+        }
           wicketCount(wicket+1)
         }}
         >Add 1 wicket</button>
